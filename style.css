@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFashionHub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>TechFashionHub</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#tech">Tech</a>
+            <a href="#fashion">Fashion</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to TechFashionHub</h2>
+        <p>Your go-to place for the latest tech gadgets and trending fashion styles!</p>
+        <div class="highlights">
+            <div class="highlight">
+                <h3>Top Gadgets</h3>
+                <p>Explore the newest tech innovations.</p>
+                <a href="#tech">Discover More</a>
+            </div>
+            <div class="highlight">
+                <h3>Trending Fashion</h3>
+                <p>Stay ahead with the latest styles.</p>
+                <a href="#fashion">Explore Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="tech">
+        <h2>Latest Tech Gadgets</h2>
+        <div class="product">
+            <img src="tech1.jpg" alt="Tech Product 1">
+            <h3>Smartphone XYZ</h3>
+            <p>A powerful device for all your needs.</p>
+            <a href="YOUR_AFFILIATE_LINK" target="_blank">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="tech2.jpg" alt="Tech Product 2">
+            <h3>Wireless Earbuds ABC</h3>
+            <p>Experience true sound quality.</p>
+            <a href="YOUR_AFFILIATE_LINK" target="_blank">Buy Now</a>
+        </div>
+    </section>
+
+    <section id="fashion">
+        <h2>Trending Fashion Items</h2>
+        <div class="product">
+            <img src="fashion1.jpg" alt="Fashion Product 1">
+            <h3>Stylish Jacket</h3>
+            <p>Look sharp and stay warm.</p>
+            <a href="YOUR_AFFILIATE_LINK" target="_blank">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="fashion2.jpg" alt="Fashion Product 2">
+            <h3>Elegant Handbag</h3>
+            <p>Perfect for every occasion.</p>
+            <a href="YOUR_AFFILIATE_LINK" target="_blank">Buy Now</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to TechFashionHub! We bring you the best of both worlds: cutting-edge technology and chic fashion trends. Our goal is to help you make informed decisions while staying stylish and tech-savvy.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="https://formspree.io/f/YOUR_FORMSPREE_ENDPOINT" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 TechFashionHub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
